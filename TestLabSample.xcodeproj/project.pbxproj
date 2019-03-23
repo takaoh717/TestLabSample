@@ -14,6 +14,7 @@
 		DBD2FDAF22437E2000BF90D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBD2FDAD22437E2000BF90D9 /* LaunchScreen.storyboard */; };
 		DBD2FDBA22437E2000BF90D9 /* TestLabSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2FDB922437E2000BF90D9 /* TestLabSampleTests.swift */; };
 		DBD2FDC522437E2000BF90D9 /* TestLabSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2FDC422437E2000BF90D9 /* TestLabSampleUITests.swift */; };
+		DBD2FDD32243807400BF90D9 /* TestLabSampleModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBD2FDD22243807400BF90D9 /* TestLabSampleModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		DBD2FDC022437E2000BF90D9 /* TestLabSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestLabSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBD2FDC422437E2000BF90D9 /* TestLabSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLabSampleUITests.swift; sourceTree = "<group>"; };
 		DBD2FDC622437E2000BF90D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DBD2FDD22243807400BF90D9 /* TestLabSampleModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestLabSampleModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				DBD2FDAB22437E2000BF90D9 /* Assets.xcassets */,
 				DBD2FDAD22437E2000BF90D9 /* LaunchScreen.storyboard */,
 				DBD2FDB022437E2000BF90D9 /* Info.plist */,
+				DBD2FDD22243807400BF90D9 /* TestLabSampleModel.swift */,
 			);
 			path = TestLabSample;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			files = (
 				DBD2FDA722437E1F00BF90D9 /* ViewController.swift in Sources */,
 				DBD2FDA522437E1F00BF90D9 /* AppDelegate.swift in Sources */,
+				DBD2FDD32243807400BF90D9 /* TestLabSampleModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +439,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = TestLabSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +458,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = J5WW4LM3TV;
 				INFOPLIST_FILE = TestLabSample/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
